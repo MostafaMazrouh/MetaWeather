@@ -13,7 +13,7 @@ Clone this repository on your computer and hit run.
 ---------------------
 Architecture
 ---------------
-![ScreenShot](/MetaWeather/Screens/CitiesList/Dependency diagram.png)
+![ScreenShot](/MetaWeather/Screens/CitiesList/DependencyDiagram.png)
 This project uses flixable clean arctucture with MVVM.
 
 Considering CitiesList is a feature.
