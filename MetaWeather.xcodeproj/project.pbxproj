@@ -19,7 +19,7 @@
 		F62C50B127C46F2B0097FE01 /* CitiesListVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C50B027C46F2B0097FE01 /* CitiesListVMTests.swift */; };
 		F62C50B527C4818F0097FE01 /* FastlaneRunUnitTest.png in Resources */ = {isa = PBXBuildFile; fileRef = F62C50B427C4818F0097FE01 /* FastlaneRunUnitTest.png */; };
 		F62C50B727C4824E0097FE01 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = F62C50B627C4824E0097FE01 /* Readme.md */; };
-		F62C50B927C4959C0097FE01 /* Dependency diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = F62C50B827C4959C0097FE01 /* Dependency diagram.png */; };
+		F62C50B927C4959C0097FE01 /* DependencyDiagram.png in Resources */ = {isa = PBXBuildFile; fileRef = F62C50B827C4959C0097FE01 /* DependencyDiagram.png */; };
 		F685D06627BF8F580081B464 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F685D06527BF8F580081B464 /* AppDelegate.swift */; };
 		F685D06827BF8F580081B464 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F685D06727BF8F580081B464 /* SceneDelegate.swift */; };
 		F685D06F27BF8F590081B464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F685D06E27BF8F590081B464 /* Assets.xcassets */; };
@@ -75,7 +75,7 @@
 		F62C50B027C46F2B0097FE01 /* CitiesListVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListVMTests.swift; sourceTree = "<group>"; };
 		F62C50B427C4818F0097FE01 /* FastlaneRunUnitTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FastlaneRunUnitTest.png; sourceTree = "<group>"; };
 		F62C50B627C4824E0097FE01 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
-		F62C50B827C4959C0097FE01 /* Dependency diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dependency diagram.png"; sourceTree = "<group>"; };
+		F62C50B827C4959C0097FE01 /* DependencyDiagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DependencyDiagram.png; sourceTree = "<group>"; };
 		F685D06227BF8F580081B464 /* MetaWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F685D06527BF8F580081B464 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F685D06727BF8F580081B464 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -223,7 +223,7 @@
 		F685D09527C1728D0081B464 /* CitiesList */ = {
 			isa = PBXGroup;
 			children = (
-				F62C50B827C4959C0097FE01 /* Dependency diagram.png */,
+				F62C50B827C4959C0097FE01 /* DependencyDiagram.png */,
 				F685D09927C173EC0081B464 /* CitiesListVC.swift */,
 				F685D09B27C174020081B464 /* CitiesListVM.swift */,
 				F6A8B54427C2F4A900D89B33 /* CityListModels.swift */,
@@ -376,7 +376,7 @@
 				F62C50B727C4824E0097FE01 /* Readme.md in Resources */,
 				F685D0A427C177210081B464 /* CitiesListCell.xib in Resources */,
 				F685D07227BF8F590081B464 /* LaunchScreen.storyboard in Resources */,
-				F62C50B927C4959C0097FE01 /* Dependency diagram.png in Resources */,
+				F62C50B927C4959C0097FE01 /* DependencyDiagram.png in Resources */,
 				F62C50AB27C44BD20097FE01 /* CityModel.json in Resources */,
 				F685D0A227C1762B0081B464 /* Main.storyboard in Resources */,
 				F685D06F27BF8F590081B464 /* Assets.xcassets in Resources */,
