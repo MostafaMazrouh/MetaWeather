@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fa5-Oh-joc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="6Yf-tj-l3d">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Fa5-Oh-joc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h4i-fW-XtZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xTf-MX-wiJ" kind="relationship" relationship="rootViewController" id="HTR-df-2GK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6WV-nW-iEn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.623188405797109" y="79.6875"/>
+        </scene>
+        <!--Cities ListVC-->
+        <scene sceneID="zdc-kz-wJb">
+            <objects>
+                <viewController storyboardIdentifier="CitiesListVC" id="xTf-MX-wiJ" customClass="CitiesListVC" customModule="MetaWeather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mgs-b0-fdo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="SKe-51-QAt">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="xTf-MX-wiJ" id="jcZ-Ij-lpq"/>
+                                    <outlet property="delegate" destination="xTf-MX-wiJ" id="7G0-cg-t5G"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kl1-Rs-Y2p"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SKe-51-QAt" firstAttribute="top" secondItem="kl1-Rs-Y2p" secondAttribute="top" id="4fA-Q8-5WR"/>
+                            <constraint firstItem="kl1-Rs-Y2p" firstAttribute="trailing" secondItem="SKe-51-QAt" secondAttribute="trailing" id="Hdf-rQ-dFJ"/>
+                            <constraint firstItem="SKe-51-QAt" firstAttribute="leading" secondItem="kl1-Rs-Y2p" secondAttribute="leading" id="YSl-oC-j07"/>
+                            <constraint firstItem="kl1-Rs-Y2p" firstAttribute="bottom" secondItem="SKe-51-QAt" secondAttribute="bottom" id="ZdG-pY-QGF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RDD-Qu-Wde"/>
+                    <connections>
+                        <outlet property="tableView" destination="SKe-51-QAt" id="I0m-OJ-VLZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f4P-3a-FhU" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="963.76811594202911" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
