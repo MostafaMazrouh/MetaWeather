@@ -31,6 +31,9 @@ We also can have different repos so we have **CitiesListRepoInterface**.
 
 These interfaces/protocols makes it easy to mock both the data source and the repo for unit testing.
 
+Take a look on my article for more:
+https://medium.com/swift2go/clean-architecture-for-massivetobe-mobile-apps-bf8e44a98b37
+
 ---------------------
 Data passing
 ---------------
