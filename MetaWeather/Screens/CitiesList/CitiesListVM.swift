@@ -12,9 +12,6 @@ class CitiesListVM {
     var citiesListRepo: CitiesListRepoInterface
     var cityModels = Binder([CityModel]())
     
-    var citiesName = ["Gothenburg", "Stockholm", "Mountain View",
-                      "London", "New York", "Berlin"]
-    
     var citiesDictionary = [
         "Gothenburg":    890869,
         "Stockholm":     906057,

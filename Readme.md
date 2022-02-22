@@ -35,6 +35,13 @@ Take a look on my article for more:
 https://medium.com/swift2go/clean-architecture-for-massivetobe-mobile-apps-bf8e44a98b37
 
 ---------------------
+**Family name** 
+---------------
+Each class in the project should have a family name like: VC, VM, Interactor, Repo, DataSource etc. **Interface** is also add to protocol's name.
+This family name indicates its job for every one according to the dependency digram.
+Only helper classes can live without family name like: Code, Binder. And that can be improved. 
+
+---------------------
 Data passing
 ---------------
 We use 3 types of data passing:
