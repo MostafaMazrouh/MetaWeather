@@ -60,9 +60,9 @@ Using interfaces/protocols makes it easy to mock the data source and the repo.
 
 In initializers, we use default values for the view model and the repo to keep using it in production code simple. We don't want to trade code simplicity with testing.
 
-![ScreenShot](/MetaWeatherTests/FastlaneRunUnitTest.png)
 To run all unit tests use the following command:
 ``` 
 fastlane tests
 ```
+![ScreenShot](/MetaWeatherTests/FastlaneRunUnitTest.png)
 If you are not familiar with fastlane please check this link: https://docs.fastlane.tools/
